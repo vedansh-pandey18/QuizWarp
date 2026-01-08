@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizWarp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        QuizWarp
+    </nav>
+    <div class="start-screen">
+        <h2>Welcome to the Quiz App!</h2>
+        <ul>
+            <p>Instructions of the quiz:</p>
+            <li>
+                You will be presented with 10 questions from various categories.
+            </li>
+            <li>
+                You have to answer each question within 30 seconds.
+            </li>
+            <li>
+                You have to confirm your answer before moving to the next question.
+            </li>
+            <li>
+                You will be awarded points for each correct answer.
+            </li>
+            <li>
+                Your Final score will be displayed at the end of the quiz.
+            </li>
+            <button id="start-button">Start Quiz</button>
+        </ul>
+    </div>
+    <div class="container">
+        <div id="quiz">
+            <h2 class="question" id="question"> Quiz Question</h2>
+        <hr />
+        <p id="time">Time <br/> Left: <br/><span id="timer">30</span></p>
+        <ul id="options">
+            <li class="option" id="option1">Quiz Option</li>
+                
+            <li class="option" id="option2">Quiz Option</li>
+
+            <li class="option" id="option3">Quiz Option </li>
+
+            <li class="option" id="option4">Quiz Option </li>
+        <hr />
+        </ul>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
