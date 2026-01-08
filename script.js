@@ -212,7 +212,7 @@ const quizData = [
     {
         question: `What is the name of the longest river in the world?`,
         options: ["Amazon", "Yangtze", "Nile", "Mississippi"],
-        answer: 3,
+        answer: 2,
     },
     {
         question: `Which Indian city is known as the 'City of Joy'?`,
